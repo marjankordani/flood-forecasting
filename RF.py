@@ -16,8 +16,8 @@ class DeepMix:
                  Save:bool,
                  DPI:int,
                  RandomState=typ.Union[int, None]):
-        self.CH = 42 / 100
-        self.SS = 15 / 100
+        self.CH = 0 / 100
+        self.SS = 0/ 100
         self.Target = Target
         self.Save = Save
         self.DPI = DPI
