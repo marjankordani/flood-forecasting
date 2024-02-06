@@ -53,7 +53,7 @@ if Save:
 
 Root = '/'.join(os.getcwd().split('\\')[:-1])
 
-Models = ['Linear Fusion', 'Ensemble LSTM-Dense','Ensemble LSTM-GRU-Dense', 'Ensemble CNN-MLP', 'Ensemble MLP','Ensemble SVM' ,'RF']
+Models = []
 
 Targets = [i for i in os.listdir(f'{Root}/{Models[0]}/Results') if not i.endswith('.csv')]
 
