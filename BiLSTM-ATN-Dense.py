@@ -41,8 +41,8 @@ class DeepMix:
                  DPI:int,
                  Verbose:int,
                  RandomState=typ.Union[int, None]):
-        self.CH = 74/ 100
-        self.SS = 15 / 100
+        self.CH = 0/ 100
+        self.SS = 0 / 100
         self.nModel = 1
         self.Models = []
         self.sSplit = 1
