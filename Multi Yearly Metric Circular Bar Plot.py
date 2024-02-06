@@ -76,7 +76,7 @@ Root = '/'.join(os.getcwd().split('\\')[:-1])
 
 s = len(pd.read_csv(Root + '/Linear Fusion/Results/D-DUPAGE/Test Predict.csv', sep=',', header=0, encoding='UTF-8'))
 
-Models = ['Linear Fusion','biLSTM-Dense','Ensemble LSTM-GRU-Dense','Ensemble LSTM-Dense']
+Models = []
 
 Targets = [i for i in os.listdir(f'{Root}/{Models[0]}/Results') if not i.endswith('.csv')]
 
