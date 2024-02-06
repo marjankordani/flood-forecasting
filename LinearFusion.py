@@ -572,7 +572,7 @@ Root = '/'.join(os.getcwd().split('\\')[:-1])
 if not os.path.exists(Root + '/0 - Ensemble Total LR'):
     os.mkdir(Root + '/0 - Ensemble Total LR')
 
-Models = ['biLSTM-Dense','Ensemble LSTM-Dense','Ensemble LSTM-GRU-Dense']
+Models = []
 
 Targets = [i for i in os.listdir(f'{Root}/{Models[0]}/Results') if not i.endswith('.csv')]
 
