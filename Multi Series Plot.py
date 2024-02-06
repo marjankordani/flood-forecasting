@@ -30,7 +30,7 @@ if Save:
 
 Root = '/'.join(os.getcwd().split('\\')[:-1])
 
-Models = ['Linear Fusion','biLSTM-Dense','Ensemble LSTM-GRU-Dense', 'Ensemble LSTM-Dense']
+Models = []
 
 s = len(pd.read_csv(Root + '/Linear Fusion/Results/D-DUPAGE/Test Predict.csv', sep=',', header=0, encoding='UTF-8'))
 
