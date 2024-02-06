@@ -24,7 +24,7 @@ class DeepMix:
                  Save:bool,
                  DPI:int,
                  RandomState=typ.Union[int, None]):
-        self.CH = -20 / 100
+        self.CH = 0 / 100
         self.SS = 0 / 100
         self.Target = Target
         self.Save = Save
